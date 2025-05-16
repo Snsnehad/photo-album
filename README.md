@@ -42,7 +42,7 @@ The layout automatically adjusts for horizontal and vertical images. Pagination 
    http://localhost/photo-album/index.php
 
 
-###How to Upload Images in Real-Time:
+### How to Upload Images in Real-Time:
 
 1.Use the file input form at the top of the page.
 2.Select an image file (supported formats: .jpg, .jpeg, .png, max size 5MB).
@@ -51,14 +51,16 @@ The layout automatically adjusts for horizontal and vertical images. Pagination 
 5.After successful upload, the new image will appear automatically in the album.
 
 
-###Pagination:
+### Pagination:
 
 1.The album shows 6 images per page.
 2.Images are split into two columns: 3 on the left, 3 on the right.
 3.Use Previous and Next buttons at the bottom to navigate through pages
 
 
-Notes and Dependencies
+### Notes and Dependencies
+
+
 1.No external libraries or frameworks required.
 2.Images are stored locally in the images/ folder.
 3.Make sure your PHP environment allows file uploads and has appropriate permissions.
